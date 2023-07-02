@@ -51,7 +51,7 @@ export const Form: React.FC<FormProps> = ({ onSubmit }) => {
     }, [nameIsValid, phoneIsValid, addressIsValid, setSubmitted, setSent, onSubmit]);
 
     return (
-        <div className={bem()}>
+        <div data-testid="checkoutForm" className={bem()}>
             <div className="mb-3">
                 <label htmlFor="f-name" className="form-label">Name</label>
                 <input
