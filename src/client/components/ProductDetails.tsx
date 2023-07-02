@@ -36,7 +36,7 @@ export const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
                 </p>
                 <dl>
                     <dt>Color</dt>
-                    <dd className={bem("Color", ['text-capitalize'])}>{product.color}</dd>
+                    <dd id='color' className={bem("Color", ['text-capitalize'])}>{product.color}</dd>
                     <dt>Material</dt>
                     <dd className={bem("Material", ['text-capitalize'])}>{product.material}</dd>
                 </dl>
